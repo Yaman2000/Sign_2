@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="days.css">
+    <title>ISL Courses-Months</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <h4>MONTHS</h4>
+                    <h3>January</h3>
+                </div>
+                <video src="videos/jan.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h4>MONTHS</h4>
+                    <h3>February</h3>
+                </div>
+                <video src="videos/feb.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h4>MONTHS</h4>
+                    <h3>March</h3>
+                </div>
+                <video src="videos/march.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h4>MONTHS</h4>
+                    <h3>April</h3>
+                </div>
+                <video src="videos/april.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h4>MONTHS</h4>
+                    <h3>May</h3>
+                </div>
+                <video src="videos/may.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h4>MONTHS</h4>
+                    <h3>June</h3>
+                </div>
+                <video src="videos/jun.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h4>MONTHS</h4>
+                    <h3>July</h3>
+                </div>
+                <video src="videos/jul.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h4>MONTHS</h4>
+                    <h3>August</h3>
+                </div>
+                <video src="videos/aug.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h4>MONTHS</h4>
+                    <h3>September</h3>
+                </div>
+                <video src="videos/sep.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h4>MONTHS</h4>
+                    <h3>October</h3>
+                </div>
+                <video src="videos/oct.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h4>MONTHS</h4>
+                    <h3>November</h3>
+                </div>
+                <video src="videos/nov.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h4>MONTHS</h4>
+                    <h3>December</h3>
+                </div>
+                <video src="videos/dec.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+
+        <div id="next" onclick="next()"> > </div>
+        <div id="prev" onclick="prev()"> < </div>
+        
+    </div>
+
+    <script>
+
+        let slides = document.querySelectorAll('.slide-container');
+        let index = 0;
+
+        function next(){
+            slides[index].classList.remove('active');
+            index = (index + 1) % slides.length;
+            slides[index].classList.add('active');
+        }
+
+        function prev(){
+            slides[index].classList.remove('active');
+            index = (index - 1 + slides.length) % slides.length;
+            slides[index].classList.add('active');
+        }
+    </script>
+    
+</body>
+</html>

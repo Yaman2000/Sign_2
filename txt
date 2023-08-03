@@ -1,0 +1,27 @@
+<button class="btn-top1" type="button" onclick="location.href='videos/year.mp4' ">
+           <p>Year</p>
+          </button>
+ 
+          <button class="btn-top2" type="button" onclick="location.href='videos/when.mp4'">
+           <p>When</p>
+          </button>
+          <button class="btn-top1" type="button" onclick="location.href='videos/which.mp4' ">
+           <p>Which</p>
+          </button>
+ 
+          <button class="btn-top2" type="button" onclick="location.href='videos/where.mp4'">
+           <p>Where</p>
+          </button>
+          <button class="btn-top1" type="button" onclick="location.href='videos/why.mp4' ">
+           <p>Why</p>
+          </button>
+ 
+          <button class="btn-top2" type="button" onclick="location.href='videos/what.mp4'">
+           <p>What</p>
+          </button>
+          <button class="btn-top2" type="button" onclick="location.href='videos/question.mp4'">
+            <p>Question</p>
+           </button>
+           <button class="btn-top1" type="button" onclick="location.href='videos/answer.mp4' ">
+            <p>Answer</p>
+           </button>

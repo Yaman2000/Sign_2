@@ -1,0 +1,20 @@
+body{
+    margin:0;
+    font-size: 16px;
+    background-color: white;
+}
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.hero .content-section .title .h1{
+    font-size: 58px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 35px;
+    line-height: 25px;
+    margin-left: 180px;
+}

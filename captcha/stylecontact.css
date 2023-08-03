@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Cormorant:wght@700&family=Kaisei+Decol:wght@500&family=Padauk&family=Roboto+Condensed:ital,wght@1,300&family=Sarabun:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/black);
+    font-family: 'Cormorant', serif;
+}
+.contact-form
+{
+    color: white;
+    margin: 10px auto;
+    width: 550px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Cormorant', serif;
+}
+.contact-form h1
+{
+    background: transparent;
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 59px;
+    text-align: center;
+    font-family: 'Cormorant', serif;
+}
+.contact-form p
+{
+    text-align: center;
+    font-size: 20px;
+}
+.contact-form input
+{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+}
+.contact-form textarea
+{
+    width: 90%;
+    margin-left: 30px;
+    padding-left: 10px;
+    height: 80px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.submit-btn
+{
+    cursor: pointer;
+    width: 150px !important;
+    margin-left: 30px !important;
+    font-size: 20px;
+   
+}
+.g-recaptcha
+{
+    margin: 20px 30px;
+}
+.status
+{
+    font-size: 20px;
+    color: greenyellow;
+    text-align: center;
+    margin-top: 0px;
+}
+.status span{
+    color: red;
+}
+.searchform {
+    display:block;
+}
+label,
+textarea {
+    margin-left: 30px;
+}
